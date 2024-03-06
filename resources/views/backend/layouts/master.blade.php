@@ -35,12 +35,12 @@
     <!--begin::Page-->
     <div class="page d-flex flex-row flex-column-fluid">
         <!--begin::Aside-->
-            @include('Backend.Layouts.side-bar')
+            @include('backend.layouts.side-bar')
         <!--end::Aside-->
         <!--begin::Wrapper-->
         <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
             <!--begin::Header-->
-            @include('Backend.Layouts.header')
+            @include('backend.layouts.header')
             <!--end::Header-->
             <!--begin::Content-->
             @yield('content')
